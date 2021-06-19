@@ -12,3 +12,19 @@
 #### 样例输出：
 >     7
 #### 解题思路：
+只要对 `A`，`B`两个数进行加法计算，因此其时间复杂度为`O(1)`，且加法得出最高值只有$2*10^8$，因此只需要用`int`即可。
+
+##### 代码
+```cpp
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a,b;
+    cin >> a >> b;
+    
+    cout << a + b;
+    
+    return 0;
+}
+```
